@@ -5,6 +5,10 @@ import streamlit as st
 
 st.markdown("""
     <style>
+        .css-1dp5vir {
+            background-image: None;
+        }
+            
         .block-container {
             max-width: 70%;
             margin-left: auto;
