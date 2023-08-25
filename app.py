@@ -8,7 +8,16 @@ st.markdown("""
         .css-1dp5vir {
             background-image: None;
         }
+        
+        .e1nzilvr2 {
+            display: inline-block;
+        }
             
+        .page-link {
+            text-decoration: underline !important;
+        }
+        
+    
         .block-container {
             max-width: 70%;
             margin-left: auto;
@@ -37,7 +46,24 @@ st.markdown("""
 
 
 # Title and Introduction
-st.title("Hey, I'm Winnie 👋")
+st.markdown("""
+<h1>Hey, I'm Winnie 👋</h1> 
+
+<div style="display:inline-block; color: gray;">
+    <span style="font-size: medium">Connect with me</span>
+    <span>  </span>
+    <a classname="twitter-icon" href="https://twitter.com/winnieh_c" target="_blank">
+        <i class="fab fa-twitter" style="font-size: 24px;"></i>
+    </a>
+    <span>  </span>
+    <a classname="icon" href="https://github.com/winnie9197" target="_blank">
+        <i class="fab fa-github" style="font-size: 24px;"></i>
+    </a>
+    <span style="margin-right: 40px;">  </span>
+    # <a classname="page-link">Moodboard</a>
+</div>
+""", unsafe_allow_html=True)
+
 st.write("""
 Hello there! I'm Winnie, a passionate software creator who loves showcasing my work on Twitter.
 I hope you enjoy the demos I've put together on this site!
@@ -45,29 +71,10 @@ I hope you enjoy the demos I've put together on this site!
          
 
 
-# Side Bar
-st.sidebar.header('Navigation')
-# We will add navigation links here if needed.
-
-# Sidebar for Navigation and Social Links
-st.sidebar.header('Connect with me')
-
 # Using HTML for prettier social media links
 st.markdown("""<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">""", unsafe_allow_html=True)
-st.sidebar.markdown("""
-<a classname="twitter-icon" href="https://twitter.com/winnieh_c" target="_blank">
-    <i class="fab fa-twitter" style="font-size: 24px;"></i>
-</a>
-<span>  </span>
-<a classname="icon" href="https://github.com/winnie9197" target="_blank">
-    <i class="fab fa-github" style="font-size: 24px;"></i>
-</a>
-""", unsafe_allow_html=True)
 
 
-# st.sidebar.header('Connect with me')
-# st.sidebar.markdown("[![Twitter](https://img.shields.io/twitter/follow/winnie?style=social)](https://twitter.com/winnie)")
-# st.sidebar.markdown("[![GitHub](https://img.shields.io/github/followers/winnie?label=Follow&style=social)](https://github.com/winnie)")
 
 # Demo Card Section (Two-Column Layout)
 col1, col2 = st.columns(2)
