@@ -53,14 +53,14 @@ st.markdown("""
     <span style="font-size: medium">Connect with me</span>
     <span>  </span>
     <a classname="twitter-icon" href="https://twitter.com/winnieh_c" target="_blank">
-        <i class="fab fa-twitter" style="font-size: 24px;"></i>
+        <i class="fab fa-x-twitter" style="font-size: 24px;"></i>
     </a>
     <span>  </span>
     <a classname="icon" href="https://github.com/winnie9197" target="_blank">
         <i class="fab fa-github" style="font-size: 24px;"></i>
     </a>
     <span style="margin-right: 40px;">  </span>
-    # <a classname="page-link">Moodboard</a>
+    <!--<a classname="page-link">Moodboard</a>-->
 </div>
 """, unsafe_allow_html=True)
 
@@ -72,7 +72,7 @@ I hope you enjoy the demos I've put together on this site!
 
 
 # Using HTML for prettier social media links
-st.markdown("""<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">""", unsafe_allow_html=True)
+st.markdown("""<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">""", unsafe_allow_html=True)
 
 
 
